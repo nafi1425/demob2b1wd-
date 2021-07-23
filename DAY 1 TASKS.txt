@@ -1,0 +1,14 @@
+TASK-3:
+HTTP/1.1:
+
+1. It was no longer required for each connection to be terminated immediately after every request was served with a response; instead, with the keep-alive header,
+   it was possible to have persistent connections. 
+2. It allowed multiple requests/responses per TCP connection.
+3. The Upgrade header was used to indicate a preference from the client that made it possible to switch to a more preferred protocol if found appropriate by the server.
+4. HTTP/1.1 provided support for chunk transfers that allowed streaming of content dynamically as chunks and for additional headers to be sent after the message body. 
+   This enhancement was particularly useful in cases where values of a field remained unknown until the content had been produced. For example, when the content had to be digitally signed, it was not possible to do so before the entire content gets generated.
+   Other features that reinforced its stability were introduced such as:
+                  a. pipelining (the second request is sent before the response to the first is adequately served)
+                  b. content negotiation (an exchange between client and server to determine the media type, it also provides the provision to serve different versions 
+                     of a resource at the same URI)
+                  c. cache control (used to specify caching policies in both requests and responses)
