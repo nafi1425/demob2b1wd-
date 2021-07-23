@@ -1,0 +1,70 @@
+
+TASK-1:
+
+S.No	Javascript	                                                   NodeJS
+
+1.    Javascript is a programming language that is used                 NodeJS is a Javascript runtime environment.
+      for writing scripts on the website.
+
+2.    Javascript can only be run in the browsers.                       NodeJS code can be run outside the browser.
+
+3.    It is basically used on the client-side.	                        It is mostly used on the server-side.
+
+4.    Javascript is used in frontend development.	                Nodejs is used in server-side development.
+
+5.    It is the upgraded version of ECMA script that uses              Nodejs is written in C, C++ and Javascript.
+      Chrome’s V8 engine written in C++.
+
+TASK-2:
+
+1. In this we get how the browser render a website.
+
+2. Then parsing of html and css.
+
+3. About DOM tree cssom tree and render tree.
+
+4. Layout computes where a Node will be on the screen.
+
+5. Painting computes bitmaps and composites to screen.
+
+
+TASK-3:
+
+1.   An html element's start tag may be omitted if the first thing inside the html element is not a comment.
+
+2.   An html element's end tag may be omitted if the html element is not immediately followed by a comment.
+
+3.   A head element's start tag may be omitted if the element is empty, or if the first thing inside the head element is an element.
+
+4.   A head element's end tag may be omitted if the head element is not immediately followed by a space character or a comment.
+
+5.   A body element's start tag may be omitted if the element is empty, or if the first thing inside the body element is not a space character or a comment, except if the first thing inside the body element is a script or style element.
+
+6.   A body element's end tag may be omitted if the body element is not immediately followed by a comment.
+
+TASK-4:
+
+Input :
+
+        console.log(typeof(1));
+        console.log(typeof(1.1));
+        console.log(typeof('1.1'));
+        console.log(typeof(true));
+        console.log(typeof(null));
+        console.log(typeof(undefined));
+        console.log(typeof([]));
+        console.log(typeof({}));
+        console.log(typeof(NaN));
+
+Output:
+
+number
+number
+string
+boolean
+object
+undefined
+object
+object
+number
+	
