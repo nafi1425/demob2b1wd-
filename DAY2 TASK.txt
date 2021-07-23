@@ -13,7 +13,7 @@ S.No	Javascript	                                                   NodeJS
 4.    Javascript is used in frontend development.	                Nodejs is used in server-side development.
 
 5.    It is the upgraded version of ECMA script that uses              Nodejs is written in C, C++ and Javascript.
-      Chrome’s V8 engine written in C++.
+      Chromeâ€™s V8 engine written in C++.
 
 TASK-2:
 
